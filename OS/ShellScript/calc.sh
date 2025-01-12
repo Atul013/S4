@@ -1,13 +1,22 @@
-echo -n "Enter the two operands :"
-read a b
-echo -n "Enter the operator in order( + , - , * , / ) : "
-read c
-case $c in
-1) result=$((a + b)) ;;
-2) result=$((a - b)) ;;
-3) result=$((a * b)) ;;
-4) result=$((a / b)) ;;
-*) 	echo "Invalid operator choice! "
-	return 1 ;;
+echo -n "Enter operand 1 : "
+read n1
+echo -n "Enter operand 2 : "
+read n2
+echo -n "1. Addition
+2. Subtraction 
+3. Multiplication 
+4. Division 
+Enter your choice : "
+read op
+case $op in
+1) result=$((n1 + n2)) ;;
+2) result=$((n1 - n2)) ;;
+3) result=$((n1 * n2)) ;;
+4) if [ $n2 -ne 0 ]; then 
+    result=$((n1 / n2)) 
+   else
+    echo "Division by zero is not allowed! " ; exit 1
+fi ;;
+*) echo "Invalid operator choice! " ; exit 1 ;;
 esac
-echo "The result is : $result "
+echo "Result : $result"
