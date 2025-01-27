@@ -74,16 +74,22 @@ void displayprocess(struct process p[100], int n)
 int main()
 {
     struct process p[100]; 
-    int n;
+    int n, i;
     float total_tt=0, total_wt=0;
     printf("Enter the number of processes: ");
     scanf("%d", &n);
     printf("\t Enter the Process Details : \n");
     getprocess(p, n); 
     sort(p, n);       
-    calculateTimes(p, n); 
+    calculateTimes(p, n);
+    printf("\t Gantt Chart : \n");
+    for (i =0; i<n ; i++)
+    {
+	    printf("| %d ", p[i].ct);
+	    }
+	    printf("|\n"); 
     displayprocess(p, n); 
-    for (int  i =0; i<n; i++)
+    for (i =0; i<n; i++)
     {
     	total_tt+=p[i].tt;
 	total_wt+=p[i].wt;
