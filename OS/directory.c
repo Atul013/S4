@@ -4,7 +4,7 @@ int main()
 {
 	DIR *dir;
 	struct dirent *ptr1;
-	char dir_name[100];
+	char dir_name[128];
 	printf("\n Enter the Directory name : ");
 	scanf("%s", dir_name);
 	dir = opendir(dir_name);
