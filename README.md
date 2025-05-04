@@ -16,7 +16,7 @@
 
 ## 📌 Note
 
-This repository is focused **purely on code** — no documentation, no notes, just clean, well-structured source files. Useful for lab submissions, viva prep, or as a quick reference. 
+>This repository is focused **purely on code** — no documentation, no notes, just clean, well-structured source files. Useful for lab submissions, viva prep, or as a quick reference. 
 ---
 
 ## 📄 License
