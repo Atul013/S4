@@ -1,30 +1,4 @@
-'''
-Write a recursive function delete_elements in Python that removes all occurrences of a specified item from a list, creating and returning a new list without modifying the input list.
 
- 
-
-Example :
-
-Input:
-
-A list of integers (can contain duplicates)
-
-An integer item which represents the element to be removed from the list.
-
-4 5 6
-
-4
-
-Output:
-
-Original list
-
-A new list with all occurrences of the item removed.
-
-4 5 6
-
-5 6
-'''
 
 #wasted more than an hour on this shit
 
