@@ -9,9 +9,9 @@ This folder contains solutions to the programming assignments for **Week 4** of 
 ### 📂 File Organization
 
 The `Week_4` folder contains:
-- `assignment_1.py`: Solution for Programming Assignment 1.
-- `assignment_2.py`: Solution for Programming Assignment 2.
-- `assignment_3.py`: Solution for Programming Assignment 3.
+- `1.py`: Solution for Programming Assignment 1.
+- `2.py`: Solution for Programming Assignment 2.
+- `3.py`: Solution for Programming Assignment 3.
 - `README.md`: This file, providing details about the assignments.
 
 ---
